@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+* {box-sizing:border-box}
+/***** custom color *****/
+
+.color-green{
+    color:#29a642 ;
+}
+.color-blue{
+    color:#1d4c66;
+}
+.color-grey{
+    color: #353a40;
+}
+.bg-grey{
+    background-color: #353a40;
+}
+.bg-blue{
+    background-color:#1d4c66;
+}
+.bg-green{
+    background-color: #29a642;
+}
+
+
+
+/****** Navbar *********/
+.narbar{
+    color: white;
+    font-size: 1.2rem;
+}
+.navbar-brand{
+    color: white;
+    font-size: 1.4rem;
+}
+.navbar-brand:hover{
+    color: yellow;
+}
+.navbar-nav .nav-link.active{
+    color: white;
+}
+.nav-link{
+    color: #a19b99;
+    font-size: 1.1rem;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.nav-item > .color-green{
+    color: #29a642;
+}
+.nav-item > .color-green:hover{
+    color: #fff;
+}
+
+
+/****** Hero *********/
+
+.carousel-inner{
+    width: auto;
+    height: 110vh;
+    margin-top: -180px;
+    position: relative;
+}
+.carousel-caption{
+    width: 78%;
+}
+.carousel-item > img{
+    width: 100%;
+}
+
+h1 .title {
+    color: #fff !important;
+}
+.parrafo{
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: right;
+}
+.btn-outline-secondary{
+    color:#fff;
+    border: 2px solid #fff;
+}
+#carouselExampleSlidesOnly .bg-green{
+    color:#fff
+}
+#carouselExampleSlidesOnly .bg-green:hover{
+    color:#fff;
+    background-color: #11491c;
+}
+
+/****** Oradores *********/
+#oradores span{
+    font-size: 0.8rem;
+}
+.card-group >.card:not(:first-child) {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: solid 1px #dee2e6;
+}
+.card-body .btn {
+    font-size: 0.7rem;
+    font-weight: bolder;
+    padding: .1rem .15rem .1rem .15rem;
+}
+.card-text{
+    font-size: 0.75rem;
+    text-align: justify;
+}
+/***** Footer *****/
+.nav .nav-item .nav-link{
+    color: #fff;
+}
+.nav .nav-item .nav-link:hover {
+    color: rgb(179, 176, 176);
+}
+
+/****** Lugar y fecha *********/
+.detalle{
+    background-color: #353a40;
+    color: #fff;
+    padding: 1rem;
+}
+.detalle > p {
+    font-size: .90rem;
+}
+
+/****** Contacto *********/
+.topic{
+    font-size: 0.8rem;
+}
+span > .charla{
+    font-size: 2rem;
+}
+.charla a{
+    text-decoration: none;
+    color: #353a40;
+    border-bottom: 2px dotted #353a40;
+}
+.btn-enviar{
+    font-size: 1.3rem;
+    font-weight: 400;
+    background-color: #96c93e;
+    color: #fff;
+}
+.btn-enviar:hover{
+    background-color: #1d4c66 !important;
+    color: #fff !important;
+}

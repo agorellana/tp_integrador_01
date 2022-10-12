@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación Personal</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand" href="#">
+        <img src="img/me.png" alt="Logo" class="d-inline-block align-text-top logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end text-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#miBarrio">Mi barrio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobbies">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#codo">¿Por qué Codo a Codo?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="sobreMi">
+    <article class="text-justify">
+      <h1 class="py-5">Hola! <i class="bi bi-emoji-smile"></i> soy Adriana</h1>
+      <h5 class="pb-2">Tengo 45 años, estoy casada con Maxi hace más de 10 años y formamos una familia de 4 con nuestros hijos Nico de 9 años 
+        <i class="bi bi-emoji-heart-eyes"></i> y Nova nuestra perrita de 10 meses.</h5>
+      <h5 class="pb-2">Trabajo en una empresa de desarrollo de software, coordinando los proyectos, hace 5 años desarrollo mis actividades de manera remota, <span class="fw-bold">¡una adelantada a la pandemia!</span></h5>
+      <h5 class="pb-2">Estudié algunos años sistemas de información, pero no terminé el ciclo universitario. Siempre me interesó la informática, 
+        me gusta trabajar en el área y aprender nuevas tecnologías.
+      </h5>
+      <h5 class="pb-2">Tambien realizo trabajos freelance, relevamiento de datos con encuestas online, procesamiento de datos y armado de informes para clientes.</h5>
+      <h5 class="pb-2">Los fines de semana trabajo en otro emprendimiento en el rubro mascotas, hago placas identificatorias en resina.</h5>
+      <h5>Me considero una persona alegre, optimista y emprendedora. <i class="bi bi-stars"></i></h5>
+    </article>
+  </section>
+  <section id="miBarrio">
+    <div class="container-fluid text-center py-4">
+      <h2>Mi barrio es Parque Patricios!</h2>
+    </div>
+    <div class="row">
+      <div class="col col-lg-4 col-12">
+        <img src="img/1280px-DefPuebloCABA_-_Barrio_Parque_de_los_Patricios_(7).jpg" class="rounded float-start" alt="imagen de Parque Patricios">
+      </div>
+      <div class="col col-lg-8 col-12">
+        <p class="lh-base">Parque Patricios es un barrio de la Ciudad Autónoma de Buenos Aires. Este barrio cuenta con varios parques públicos, lo que conforma uno de los más importantes pulmones verdes del ámbito porteño. En él se encuentra ubicada la Jefatura de Gobierno de la Ciudad de Buenos Aires.</p>
+        <a href="https://es.wikipedia.org/wiki/Parque_Patricios_(Buenos_Aires)" target="_blank">  acceder a wikipedia <i class="bi bi-eyeglasses fs-3"></i></a>
+      </div>
+    </div>
+  </section>
+  <section id="hobbies">
+    <div class="row py-4">
+      <div class="col col-lg-4 col-12">
+        <h2>Mis hobbies...</h2>
+        <h5 class="pb-2 text-justify">Uno de mis hobbies es trabajar con resina epoxi, hago piezas decorativas, llaveros, señaladores pero lo que más 
+          hago son placas identificatorias para mascotas.</h5>
+      </div>
+      <div class="col col-lg-8 col-12">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Slide_01.jpg" class="d-block w-100" alt="imagen hobbies">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Slide_02.jpg" class="d-block w-100" alt="imagen hobbies">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Slide_03.jpg" class="d-block w-100" alt="imagen hobbies">
+              </div>
+              <div class="carousel-item active">
+                <img src="img/Slide_04.jpg" class="d-block w-100" alt="imagen hobbies">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="row mt-5">
+      <h3>Otro de mis hobbies...</h3>
+      <h5>Es practicar running, me encantan las carreras de avetura donde podemos ir en familia y compartir todas la experiencias al aire libre.</h5>
+      <h5>Comencé en el running a los 37 años, un día vi un grupo en un parque y me anoté.  Lo que disfruté mis primeros 21km,
+        no tiene descripción! <br>
+        Lo que mas me gusta de esta actividad es que puedo hacerla en familia, con Nico y ahora también con Nova, juntos hacemos carreritas y la pasamos genial!
+      </h5>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/Pinamar_13_km13-1998.jpg" class="card-img-top" alt="imagen Adriana y Juan Carlos en la Pinamar">
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Terma Adventure Pinamar</h5>
+              <p class="card-text">Felicidad plena en esa foto, junto a mi compañero Juan que siempre sigue para adelante. ¡es un ejemplo!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/Card2.jpg" class="card-img-top" alt="imagen de primer carrera dogrun para Nova">
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Primer DogRun para los mas chicos</h5>
+              <p class="card-text">Nova con 3 meses y Nico corrieron su primer carrera de 1km. ¡Una experiencia única!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/Card3.jpg" class="card-img-top" alt="imagen de Adri y Nico">
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Madre & Hijo</h5>
+              <p class="card-text">Nico de más chico en estas fotos, empezando a transitar el running junto a mí.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/9k-Julio-Makro con Juanca.JPG" class="card-img-top" alt="imagen de Adri y Juanca en la carrera del 9 de Julio">
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Viva la Patria!</h5>
+              <p class="card-text">9 de Julio, una de las primeras que corrimos juntos!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="codo">
+    <article>
+      <h2>¿Por qué Codo a Codo?</h2>
+      <h5 class="text-justify">Porque es una excelente oportunidad para aprender y a su vez encontrar oportunidades laborales en el área de informática.
+        Sobre todo porque los cursos que dictan son gratuitos y estan al alcance de todos los que deseen aprender.
+        Yo soy autodidacta pero en el mercado laboral eso no es suficiente, por eso Codo a Codo me resulta una excelente oportunidad que 
+        voy a aprovechar al máximo.        
+      </h5>
+    </article>
+  </section>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top bg-dark">
+    <div class="col-md-4 d-flex align-items-center">
+      <span class="mb-3 mb-md-0 text-muted mx-5">&copy; 2022 AdriO</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/amore.pet19/" target="_blank"><i class="bi bi-instagram fs-3"></i></a></li>
+      <li class="ms-3 mx-5"><a class="text-muted" href="https://www.facebook.com/amorepet19" target="_blank"><i class="bi bi-facebook fs-3"></i></a></li>
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

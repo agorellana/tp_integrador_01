@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;  
+}
+section{
+    width: auto;
+    max-width: 350px;
+    height: 600px;
+    margin: auto;
+}
+article{
+    margin-top: 20%;
+    width: auto;
+    border: solid 4px;
+    border-radius: 20px;
+    border-color: black;
+    background-color: aquamarine;
+    padding: 10% 5% 5% 5%;
+    z-index: -1;
+    text-align: center;
+}
+title{
+    display: inline-block;
+    background-color: orangered;
+    border: solid 4px;
+    border-radius: 12px;
+    border-color: black;
+    padding: 2% 4%;
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    position: relative;
+    letter-spacing: 1px;
+    top: -60px;
+    z-index: 99999;
+}
+img{
+    width: 200px;
+}
+div{
+    color: black;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: start;
+}
+span{
+    display: flex;
+}
+p{
+    text-align: justify;
+}
