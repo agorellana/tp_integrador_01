@@ -149,3 +149,36 @@ span > .charla{
     background-color: #1d4c66 !important;
     color: #fff !important;
 }
+
+/****** Contacto *********/
+#tickets .card{
+    text-align: center;
+}
+#tickets .card-uno{
+    border: 2px solid #0d6efd;
+}
+#tickets .card-dos{
+    border: 2px solid #20c997;
+}
+#tickets .card-tres{
+    border: 2px solid #ffc107;
+}
+#tickets .card-text{
+    font-size: 0.75rem;
+    text-align: center;
+}
+#tickets .descuento{
+    font-size: 1.1rem;
+}
+
+#tickets .porcentaje{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#disabledTextInput{
+    background-color: #cfe2ff;
+    border-color: #9ec5fe;
+}
+#disabledTextInput::placeholder{
+    color: #052c65; 
+}

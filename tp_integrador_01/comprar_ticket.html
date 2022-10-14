@@ -35,28 +35,31 @@
           </div>
         </div>
     </nav>
-      <section id="tickets" class="row py-3">
+      <section id="tickets" class="row">
         <div class="col col-3"></div>
-        <div class="col col-6 card-group gap-1">
-          <div class="card">
-            <div class="card-body text-center p-5"> 
-              <h5 class="card-title">Estudiante</h5>
-              <p class="card-text">Tienen un descuento</p>
-              <p class="card-text">80%</p>
+        <div class="col col-6 card-group gap-1 p-4">
+          <div class="card card-uno">
+            <div class="card-body py-4"> 
+              <h4 class="card-title">Estudiante</h4>
+              <p class="card-text descuento">Tienen un descuento</p>
+              <p class="card-text porcentaje">80%</p>
+              <p class="card-text text-muted">*presentar documentación</p>
             </div>
           </div>
-          <div class="card">
-            <div class="card-body text-center p-5">
-              <h5 class="card-title">Trainee</h5>
-              <p class="card-text">Tienen un descuento</p>
-              <p class="card-text">50%</p>
+          <div class="card card-dos">
+            <div class="card-body py-4">
+              <h4 class="card-title">Trainee</h4>
+              <p class="card-text descuento">Tienen un descuento</p>
+              <p class="card-text porcentaje">50%</p>
+              <p class="card-text text-muted">*presentar documentación</p>
             </div>
           </div>
-          <div class="card">
-            <div class="card-body text-center p-5">
-              <h5 class="card-title">Junior</h5>
-              <p class="card-text">Tienen un descuento</p>
-              <p class="card-text">15%</p>
+          <div class="card card-tres">
+            <div class="card-body py-4">
+              <h4 class="card-title">Junior</h4>
+              <p class="card-text descuento">Tienen un descuento</p>
+              <p class="card-text porcentaje">15%</p>
+              <p class="card-text text-muted">*presentar documentación</p>
             </div>
           </div>
         </div>
@@ -69,11 +72,11 @@
           <div class="col-md-3 col-s-2 col-xs-2"></div>
           <form class="col-md-6 col-s-8 col-xs-8">
             <div class="mb-3 d-md-flex gap-4">
-              <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example">
-              <input class="form-control" type="text" placeholder="Apellido" aria-label="default input example">
+              <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example" required>
+              <input class="form-control" type="text" placeholder="Apellido" aria-label="default input example"required>
             </div>
             <div class="mb-3">            
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo" required>
             </div>           
             <div class="row g-3 mb-3">
               <div class="col-md-6">
@@ -95,17 +98,17 @@
             </div>
             <div class="row g-3">
               <div class="col-md-6">
-                <button type="button" class="btn btn-enviar">Borrar</button>
+                <button type="button" class="btn w-100 btn-enviar">Borrar</button>
               </div>
               <div class="col-md-6">
-                <button type="button" class="btn btn-enviar">Resumen</button>
+                <button type="button" class="btn w-100 btn-enviar">Resumen</button>
               </div>
             </div>
           </form>
           <div class="col-md-3 col-s-2 col-xs-2"></div>
         </div>
       </section>
-      <footer class="pt-3 mt-4">
+      <footer class="pt-3">
         <ul class="nav justify-content-center bg-blue py-4">
           <li class="nav-item"><a href="#" class="nav-link mx-4 px-4 text-wrap">Preguntas <br> frecuentes</a></li>
           <li class="nav-item"><a href="#" class="nav-link mx-5 px-4 ">Contáctanos</a></li>
