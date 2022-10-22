@@ -70,7 +70,7 @@
           <span class="text-center topic">VENTA</span>
           <tittle class="text-center h2">VALOR DE TICKET <SPan>$200</SPan></tittle>        
           <div class="col-md-3 col-s-2 col-xs-2"></div>
-          <form class="col-md-6 col-s-8 col-xs-8">
+          <form class="col-md-6 col-s-8 col-xs-8" action="">
             <div class="mb-3 d-md-flex gap-4">
               <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example" required>
               <input class="form-control" type="text" placeholder="Apellido" aria-label="default input example"required>
@@ -85,11 +85,11 @@
               </div>
               <div class="col-md-6">
                 <label for="cantidad" class="form-label">Categoría</label>
-                <select class="form-select" aria-label="Default select example">
+                <select id="descuento" class="form-select" aria-label="Default select example">
                   <option selected>Selecciona una categoría</option>
-                  <option value="1">Estudiante</option>
-                  <option value="2">Trainee</option>
-                  <option value="3">Junior</option>
+                  <option value="0.80">Estudiante</option>
+                  <option value="0.50">Trainee</option>
+                  <option value="0.15">Junior</option>
                 </select>
               </div>
             </div>
@@ -101,7 +101,7 @@
                 <button type="button" class="btn w-100 btn-enviar">Borrar</button>
               </div>
               <div class="col-md-6">
-                <button type="button" class="btn w-100 btn-enviar">Resumen</button>
+                <button id="resumen" type="button" class="btn w-100 btn-enviar">Resumen</button>
               </div>
             </div>
           </form>

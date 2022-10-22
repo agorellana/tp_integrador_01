@@ -1,7 +1,15 @@
+const precio = 200;
+const cantidad = document.getElementById('cantidad');
+const descuento = document.getElementById('descuento');
+const resumen = document.getElementById('resumen');
+const pagar = document.getElementById('disabledTextInput');
 
-const compra = (precio, cantidad, descuento, calcular) =>{
-    calcular ((precio*cantidad)-(precio*cantidad)*descuento);
-}
-compra(200,10, 0.80, console.log);
-compra(200,10, 0.50, console.log);
-compra(200,10, 0.15, console.log);
+resumen.addEventListener('click',() =>{
+    console.log(precio);
+    console.log(cantidad.value);
+    console.log(descuento.value);
+    console.log(pagar.placeholder);
+ 
+    const calcular =((precio*cantidad.value)-(precio*cantidad.value)*descuento.value);
+    pagar.placeholder = calcular;
+});
